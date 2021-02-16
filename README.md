@@ -76,8 +76,7 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 
 1. Homepage shows picture, and food name
 2. second page shows details of the food being selected.
-3. second page should also allow users to post their review of the food
-4. a form is showed on the first page/direct to a new tab to allow users to add new food.
+3. a form is showed on the first page/direct to a new tab to allow users to add new food.
 
 
 
@@ -85,7 +84,7 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 
 - users are allow to like food
 - shows more info when the mouse is hover on home page,  and the pic becomes more transparent
-
+- second page should also allow users to post their review of the food
 
 
 
@@ -128,5 +127,6 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 
 ```
 
-## Change Log
-
+## SWOT Analysis
+Weakness: CSS
+Strenghten: put components together.
