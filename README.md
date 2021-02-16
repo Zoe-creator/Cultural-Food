@@ -103,20 +103,19 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-
 | CSS - color,border,size  | L | 3 hrs| 3hrs | 3hrs |
-| CSS - flexbox or grid home page| H | 3hrs| ?hrs | ?hrs |
-| CSS - flexbox or grid second  page| H | 3hrs| ?hrs | ?hrs |
-| CSS - form| H | 1hrs| ?hrs | ? hrs |
+| CSS - flexbox or grid home page | H | 3hrs| ?hrs | ?hrs |
+| CSS - flexbox or grid second  page | H | 3hrs| ?hrs | ?hrs |
+| CSS - form|  H | 1hrs| ?hrs | ? hrs |
 | CSS - adjust screen, media query | H | 3hr | ? hrs | ? hrs |
-| nav bar| H | 2hrs | ?hrs | ?hrs |
+| nav bar | H | 2hrs | ?hrs | ?hrs |
 | Hompage shows pic and basic info | H | 2hr | ? hrs | ?hrs|
 | form-allow users to insert their data | H | 2hr | ? hrs | ? hrs |
 | second page shows all detail of the clicked food | H | 3hr | ? hrs | ? hrs|
 | allow users to add review | H | 2hr | ? hrs | ? hrs |
 | allow users to like or dislike a review | H | 3hr | ? hrs | ? hrs |
-| hover pic to show addition info on homepage| H | 3hr | ? hrs | ? hrs |
-| work with API| H | 2hrs | ?hrs | ?hrs |
+| hover pic to show addition info on homepage | H | 3hr | ? hrs | ? hrs |
+| work with API | H | 2hrs | ?hrs | ?hrs |
 
 | Total | H | 32hrs | hrs | hrs |
 
