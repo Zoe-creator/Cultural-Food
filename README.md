@@ -9,9 +9,7 @@ Cultural Food
 a website showing cutural food worldwide.
 
 ## API and Data Sample
-https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed58c9029242de238692ec36a7a26f23ec88dbdfc39190c5647142e
 
-https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed58c9029242de238692ec36a7a26f23ec88dbdfc39190c5647142e
 ```
 {
     "records": [
@@ -74,7 +72,7 @@ https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed
 
 ## Component Hierarchy
 https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=sharing
-![Components](https://res.cloudinary.com/lizhenwen727/image/upload/v1613498542/Screen_Shot_2021-02-16_at_1.01.56_PM_y8fxai.png)
+![Components](https://res.cloudinary.com/lizhenwen727/image/upload/v1613505986/Screen_Shot_2021-02-16_at_3.05.50_PM_bfzcqv.png)
 
 #### MVP 
 
