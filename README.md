@@ -67,10 +67,14 @@ https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed
     "offset": "recU5tbhj4Ilo9NQp"
 }
 ```
+## WireFrams
+![wireframs](https://res.cloudinary.com/lizhenwen727/image/upload/v1613424101/Screen_Shot_2021-02-15_at_4.20.40_PM_bwcsgn.png)
+![wireframs](https://res.cloudinary.com/lizhenwen727/image/upload/v1613424091/Screen_Shot_2021-02-15_at_4.21.02_PM_z5zsas.png)
 
-## Wireframes
+
+## Component Hierarchy
 https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=sharing
-![wireframs](https://res.cloudinary.com/lizhenwen727/image/upload/v1613497035/Screen_Shot_2021-02-16_at_11.54.30_AM_b2p7sy.png)
+![Components](https://res.cloudinary.com/lizhenwen727/image/upload/v1613497035/Screen_Shot_2021-02-16_at_11.54.30_AM_b2p7sy.png)
 
 #### MVP 
 
