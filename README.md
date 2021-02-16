@@ -70,7 +70,7 @@ https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed
 
 ## Wireframes
 https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=sharing
-![wireframs)(https://res.cloudinary.com/lizhenwen727/image/upload/v1613497035/Screen_Shot_2021-02-16_at_11.54.30_AM_b2p7sy.png)
+![wireframs](https://res.cloudinary.com/lizhenwen727/image/upload/v1613497035/Screen_Shot_2021-02-16_at_11.54.30_AM_b2p7sy.png)
 
 #### MVP 
 
