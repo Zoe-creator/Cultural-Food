@@ -14,6 +14,7 @@ https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed
 https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed58c9029242de238692ec36a7a26f23ec88dbdfc39190c5647142e
 ```
 {
+   {
     "records": [
         {
             "id": "rec2O28PrVvRzddIP",
@@ -116,7 +117,6 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 | allow users to like or dislike a review | H | 3hr | ? hrs | ? hrs |
 | hover pic to show addition info on homepage | H | 3hr | ? hrs | ? hrs |
 | work with API | H | 2hrs | ?hrs | ?hrs |
-
 | Total | H | 32hrs | hrs | hrs |
 
 ## Code Snippet
