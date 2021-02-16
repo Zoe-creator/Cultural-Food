@@ -74,7 +74,7 @@ https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed
 
 ## Component Hierarchy
 https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=sharing
-![Components](https://res.cloudinary.com/lizhenwen727/image/upload/v1613497035/Screen_Shot_2021-02-16_at_11.54.30_AM_b2p7sy.png)
+![Components](https://res.cloudinary.com/lizhenwen727/image/upload/v1613498542/Screen_Shot_2021-02-16_at_1.01.56_PM_y8fxai.png)
 
 #### MVP 
 
