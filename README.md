@@ -128,5 +128,7 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 ```
 
 ## SWOT Analysis
--Weakness: CSS
+
+-Weakness: CSS,
+
 -Strenghten: put components together.
