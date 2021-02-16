@@ -73,7 +73,7 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 
 #### MVP 
 
-1. Homepage shows picture, and food name, rate
+1. Homepage shows picture, and food name
 2. second page shows details of the food being selected.
 3. second page should also allow users to post their review of the food
 4. a form is showed on the first page/direct to a new tab to allow users to add new food.
@@ -82,9 +82,8 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 
 #### PostMVP  
 
-- users are allow to like some
-- uses are allow to delete the posts
--shows more info when the mouse is hover on home page,  and the pic becomes more transparent
+- users are allow to like food
+- shows more info when the mouse is hover on home page,  and the pic becomes more transparent
 
 
 
