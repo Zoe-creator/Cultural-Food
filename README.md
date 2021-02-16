@@ -72,7 +72,7 @@ a website showing cutural food worldwide.
 
 ## Component Hierarchy
 https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=sharing
-![Components](https://res.cloudinary.com/lizhenwen727/image/upload/v1613505986/Screen_Shot_2021-02-16_at_3.05.50_PM_bfzcqv.png)
+![Components](https://res.cloudinary.com/lizhenwen727/image/upload/v1613512105/Screen_Shot_2021-02-16_at_4.47.49_PM_onpqsa.png)
 
 #### MVP 
 
