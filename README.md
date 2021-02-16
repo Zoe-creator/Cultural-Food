@@ -18,20 +18,14 @@ https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed
         {
             "id": "rec2O28PrVvRzddIP",
             "fields": {
-                "Name": "Stewed Pork Burger",
-                "Rate": "4",
-                "description": "Pork belly meat, stewed in soy sauce with spices and herbs, then diced along with its stew and juices, then packed into a warm and crispy flatbread-li...",
-                "Where": "Xi'an, China",
-                "picture URL": "https://i.pinimg.com/originals/55/00/02/550002b9a45fdb1a2b7baab6af52e8f6.jpg",
                 "Reviews": [
                     "recOn4c8U0Ad1DoA4"
                 ],
-                "dislike (from Reviews)": [
-                    0
-                ],
-                "Like (from Reviews)": [
-                    0
-                ],
+                "description": "Pork belly meat, stewed in soy sauce with spices and herbs, then diced along with its stew and juices, then packed into a warm and crispy flatbread-li...",
+                "Name": "Stewed Pork Burger",
+                "Where": "Xi'an, China",
+                "Rate": "4",
+                "picture URL": "https://i.pinimg.com/originals/55/00/02/550002b9a45fdb1a2b7baab6af52e8f6.jpg",
                 "reviews (from Reviews)": [
                     "this is very good."
                 ],
@@ -44,20 +38,14 @@ https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed
         {
             "id": "recIOpAVRVcxWp9ug",
             "fields": {
-                "Name": "LIANG PI",
-                "Rate": "5",
-                "description": "Chewy, steamed wheat flour noodles, tossed with bean sprouts, cucumbers, cilantro, and cubes of spongy house-made gluten, in all our proprietary sauce...",
-                "Where": "Xi'an, China",
-                "picture URL": "http://1vt52lbjubq3o1o2y36z6rcs.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/purplecold.jpeg",
                 "Reviews": [
                     "rec9kbJ9i1bUGTe8a"
                 ],
-                "dislike (from Reviews)": [
-                    0
-                ],
-                "Like (from Reviews)": [
-                    2
-                ],
+                "description": "Chewy, steamed wheat flour noodles, tossed with bean sprouts, cucumbers, cilantro, and cubes of spongy house-made gluten, in all our proprietary sauce...",
+                "Name": "LIANG PI",
+                "Where": "Xi'an, China",
+                "Rate": "5",
+                "picture URL": "http://1vt52lbjubq3o1o2y36z6rcs.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/purplecold.jpeg",
                 "reviews (from Reviews)": [
                     "yummy"
                 ],
