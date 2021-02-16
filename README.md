@@ -14,13 +14,13 @@ https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed
 https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed58c9029242de238692ec36a7a26f23ec88dbdfc39190c5647142e
 ```
 {
-   {
     "records": [
         {
             "id": "rec2O28PrVvRzddIP",
             "fields": {
                 "Reviews": [
-                    "recOn4c8U0Ad1DoA4"
+                    "recOn4c8U0Ad1DoA4",
+                    "rec9kbJ9i1bUGTe8a"
                 ],
                 "description": "Pork belly meat, stewed in soy sauce with spices and herbs, then diced along with its stew and juices, then packed into a warm and crispy flatbread-li...",
                 "Name": "Stewed Pork Burger",
@@ -28,10 +28,12 @@ https://airtable.com/invite/l?inviteId=invgWM7vqarTc7bRK&inviteToken=10ad86527ed
                 "Rate": "4",
                 "picture URL": "https://i.pinimg.com/originals/55/00/02/550002b9a45fdb1a2b7baab6af52e8f6.jpg",
                 "reviews (from Reviews)": [
-                    "this is very good."
+                    "this is very good.",
+                    "yummy"
                 ],
                 "Name (from Reviews)": [
-                    "Zoe"
+                    "Zoe",
+                    "debbie"
                 ]
             },
             "createdTime": "2021-02-15T21:35:25.000Z"
