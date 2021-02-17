@@ -1,4 +1,4 @@
-import { Link, Route } from "react-router-dom"
+import { Route } from "react-router-dom"
 import LandingPage from "./components/LandingPage"
 import Nav from "./components/Nav"
 import Food from "./components/Food"
@@ -28,34 +28,37 @@ function App() {
 
   return (
     <div className="App">
-<h1 className="app-header">Cultural Foodie</h1>
+
       <Route exact path="/">
         <LandingPage />
+        <Footer />
 
       </Route>
 
       <Route exact path="/homepage">
+        <h1 className="app-header">Cultural Foodie</h1>
         <Nav />
         <Homepage foods={foods} />
-        <Footer style={{position:"relative"}}/>
       </Route>
 
-      <Route exact path="/form">
+      <Route exact path="/form" >
+        <h1 className="app-header">Cultural Foodie</h1>
         <Nav />
         <Form setToggle={setToggle} />
 
       </Route>
 
       <Route exact path="/food/:id">
+        <h1 className="app-header">Cultural Foodie</h1>
         <Nav />
         <Food foods={foods} />
 
       </Route>
 
       <Route exact path="/nutritionfacts/:id">
+        <h1 className="app-header">Cultural Foodie</h1>
         <Nav />
         <Nutrition foods={foods} />
-
       </Route>
 
     </div>

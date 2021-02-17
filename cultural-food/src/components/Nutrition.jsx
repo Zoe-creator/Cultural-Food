@@ -18,6 +18,8 @@ export default function Nutrition(props) {
     width: '100%',
     backgroundColor: "#e0e0de",
     borderRadius: "5px",
+    marginTop: "10%",
+    // marginBottom: "10%"
   }
   const fillerStylesCalories = {
     height: '100%',
@@ -40,8 +42,9 @@ export default function Nutrition(props) {
   }
   return (
     <div>
-      <header> {food.name}</header>
-      <div style={containerStyles}>
+      <header className="nutrient-food-name"> {food.fields.name}</header>
+      <div className="nutrient-info">
+      <div style={containerStyles} >
         <h3 style={fillerStylesCalories} className="food-calories">{Math.round(parseInt(food.fields.calories) / 2000 * 100)}%</h3>
       </div>
       <h5>{2000 - parseFloat(food.fields.calories)} / 2,000 cals left</h5>
@@ -56,6 +59,8 @@ export default function Nutrition(props) {
       </div>
       <h5>Carborhydrates: {325 - parseFloat(food.fields.carbs)} / 325 g left</h5>
 
+      </div>
+      
 
     </div>
   )

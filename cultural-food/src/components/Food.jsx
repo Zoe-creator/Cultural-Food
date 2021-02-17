@@ -16,12 +16,18 @@ export default function Food(props) {
   }
 
   return (
-    <div className="food-info" key={food.id} >
+    <div className="food-infos" key={food.id} >
       <img className="food-pic" src={food.fields.pictureURL} alt={food.fields.name} />
-      <h1 className="food-name">Name: {food.fields.name}</h1>
-      <h2 className="food-region">Region: {food.fields.origin}</h2>
-      <h3 className="food-description">{food.fields.description}</h3>
-      <Link to={`/nutritionfacts/${food.id}`}> Nutrient Facts</Link>
+      <div className="food-info">
+        <h1 className="food-name">Name: {food.fields.name}</h1>
+        <h2 className="food-region">Region: {food.fields.origin}</h2>
+        <h3 className="food-description">{food.fields.description}</h3>
+        <button>
+                  <Link style={{ textDecoration: "none" }} className="nutrient-Link" to={`/nutritionfacts/${food.id}`}> Nutrient Facts</Link>
+
+        </button>
+
+      </div>
 
       {/* <h4>Reviews: {food.fields.[`reviews (from Reviews)`][0]}</h4> */}
     </div>
