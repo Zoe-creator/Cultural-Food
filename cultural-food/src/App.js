@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App">
-
+<h1 className="app-header">Cultural Foodie</h1>
       <Route exact path="/">
         <LandingPage />
 

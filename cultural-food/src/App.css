@@ -1,10 +1,21 @@
 
 body{
-  background:black;
+  background-image: linear-gradient(to bottom, rgb(248, 211, 217),rgb(248, 248, 228));
 
 }
+.app-header{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-weight: 900;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);  
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .landingpage{
-  background-image: url(https://static.toiimg.com/photo/70189092.cms);
+  background-image: url(./components/images/wellcore-foodie.jpg);
 height:100vh;
 width:100%;
 background-repeat: no-repeat;
@@ -18,16 +29,45 @@ background-size:cover;
   z-index:1;
   position:relative;
 
-
 }
 .landing-header{
   font-size: 40px;
-  color:#fff;
-  font-family: 'Reggae One'
+  color:rgb(220, 245, 110);
+  font-family: 'Ranchers', cursive;
 }
 .landing-link{
   height:2em;
   /* position:relative; */
-  color: red;
-  background-color: pink;
+  color: rgb(17, 217, 243);
+  background-color: rgb(192, 235, 255);
+}
+.food-content{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  /* grid-template-rows: 300px; */
+  grid-column-gap: 20px;
+  max-width: 100vw;
+  margin: 70px auto ;
+
+  font-family: "Source Sans Pro", sans-serif;
+
+}
+.home-image{
+  width: 200px;
+    height: 300px;
+}
+
+
+
+.footer{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: #FfF;
+  background-color: #666;
+  padding: 10px;
+  height: auto;
+  width: 100%;
+position: relative;
+  bottom:0;
 }

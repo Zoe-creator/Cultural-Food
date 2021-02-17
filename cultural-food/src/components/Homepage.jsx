@@ -1,24 +1,19 @@
 import { Link } from "react-router-dom"
 import plus from "./images/plus.jpg"
+import { useState } from "react"
+import HomeFood from "./HomeFood"
 
 export default function Homepage(props) {
-  const imgStyle = {
-    width: "200px",
-    height: "300px",
-  }
+  const [names, setNames] = useState("")
+
   return (
-    <div className="foods-link">
+    <div className="food-content">
       {props.foods.map((food) => (
-        <div className="eachFood">
-          <Link key={food.id} to={`/food/${food.id}`}>
-            <img style={imgStyle} src={food.fields.pictureURL} alt={food.fields.name} />
-          </Link>
-          <p className="food_name">{food.fields.name}</p>
-        </div>
+        <HomeFood food={food} name={names} setName={setNames} />
       ))
       }
-      <Link to="/form">
-        <img style={imgStyle} src={plus} alt="add another foodie" />
+      <Link to="/form" className="each-food">
+        <img className="home-image" src={plus} alt="add another foodie" />
       </Link>
 
     </div>
