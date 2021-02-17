@@ -31,29 +31,32 @@ function App() {
 
       <Route exact path="/">
         <LandingPage />
+
       </Route>
 
-      <Route path="/homepage">
+      <Route exact path="/homepage">
         <Nav />
         <Homepage foods={foods} />
+        <Footer style={{position:"relative"}}/>
       </Route>
 
-      <Route path="/form">
+      <Route exact path="/form">
         <Nav />
-        <Form setToggle={setToggle}/>
+        <Form setToggle={setToggle} />
+
       </Route>
 
-      <Route path="/food/:id">
+      <Route exact path="/food/:id">
         <Nav />
         <Food foods={foods} />
+
       </Route>
 
       <Route exact path="/nutritionfacts/:id">
         <Nav />
         <Nutrition foods={foods} />
-      </Route>
-      <Footer />
 
+      </Route>
 
     </div>
   );

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import plus from "./images/plus.jpg"
+
 export default function Homepage(props) {
   const imgStyle = {
     width: "200px",
