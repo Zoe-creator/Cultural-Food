@@ -10,7 +10,7 @@ export default function Nav() {
   return (
     <nav className="navbar">
       <Link to="/homepage" style={{ textDecoration: "none" }}>
-        <img style={img} src={homeIcon}/>
+        <img style={img} src={homeIcon} />
           Home </Link>
     </nav>
   )
