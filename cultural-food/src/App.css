@@ -47,7 +47,7 @@ background-size:cover;
 .food-content{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  grid-row-gap:10%;
+  grid-row-gap:1%;
   grid-column-gap: 3%;
   max-width: 100vw;
   margin: 5% 5%;
@@ -58,6 +58,10 @@ height:100vh;
   display:inline-flex;
  
 }
+
+.food-names{
+  font-family: 'Rubik', sans-serif;
+}
 .food-likes{
   text-align:right;
   margin:8px;
@@ -66,7 +70,7 @@ height:100vh;
 }
 .home-image{
   width: 320px;
-    height: 300px;
+    height: 330px;
 }
 .edit-button{
   /* //float:right; */
@@ -121,6 +125,7 @@ height:100vh;
   padding:10px;
   
 }
+
 .food-name{
   
   font-family: 'Noto Serif JP', serif;

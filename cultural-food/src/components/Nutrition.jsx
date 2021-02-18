@@ -47,7 +47,7 @@ export default function Nutrition(props) {
 
   return (
     <div>
-      <header className="nutrient-food-name"> {food.fields.name}</header>
+      <header className="nutrient-food-name"> {food.fields.name.toUpperCase()}</header>
       <div className="nutrient-info">
         <div className="nutrient-form">
           <button onClick={() => setShowForm(!showForm)}>Something is wrong</button>

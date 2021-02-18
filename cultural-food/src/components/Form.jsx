@@ -63,7 +63,7 @@ export default function Form(props) {
 
   return (
     <form onSubmit={handleSubmit} className="form">
-      <h2>Submit/Edit a New Food</h2>
+      <h2> { params.id? "Edit a Food": "Submit a New Food"}</h2>
       <label htmlFor="name">Name: </label>
       <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
       <br />
@@ -85,7 +85,7 @@ export default function Form(props) {
       <label htmlFor="Carbs of Food">carbs of Food: </label>
       <input type="number" value={carbs} onChange={(e) => setCarbs(e.target.valueAsNumber)} />
       <br />
-      <button type="submit">Add Me!</button>
+      <button type="submit">{params.id? "Edit":"Add Me"}</button>
     </form>
   )
 }

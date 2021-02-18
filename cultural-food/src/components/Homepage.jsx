@@ -4,12 +4,12 @@ import { useState } from "react"
 import HomeFood from "./HomeFood"
 
 export default function Homepage(props) {
-  const [names, setNames] = useState("")
+  const [description, setDecription] = useState("")
 
   return (
     <div className="food-content">
       {props.foods.map((food) => (
-        <HomeFood food={food} name={names} setName={setNames} setToggle={props.setToggle} />
+        <HomeFood food={food} description={description} setDecription={setDecription} setToggle={props.setToggle} />
       ))}
 
       <Link to="/form" className="each-food">

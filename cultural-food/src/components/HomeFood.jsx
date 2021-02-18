@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom"
 import { baseURL, config } from "../services"
 import axios from "axios"
+import { useState } from "react"
 
 
 export default function HomeFood(props) {
   const { name, pictureURL, likes } = props.food.fields
+  const [showme,setShowme]=useState(false)
 
-  // const opacity = name === "" ? "1" : name === name ? "1" : "0.5";
+  const opacity = props.description === "" ? "1" :
+    props.description === props.food.fields.description ? "1" : "0.5";
 
   const wordStyle = {
     color: "red",
@@ -19,18 +22,29 @@ export default function HomeFood(props) {
     props.setToggle((cur) => !cur)
   }
 
+  function showDescription(){
+    return (
+      <p className="home-description">{ props.food.fields.description}</p>
+
+    )
+  }
+
   return (
-    <div className="each-food">
-      {/* onMouseEnter={() => props.setName(name)}
-      onMouseLeave={() => props.setName("")}
-      style={{ opacity }} > */}
+    <div className="each-food"
+      onMouseEnter={() => props.setDecription(props.food.fields.description)}
+      onMouseLeave={() => props.setDecription("")}
+      style={{ opacity }} >
+         <p className="home-description">
+{showme?showDescription():null} 
+      </p>
       <Link className="foods-link" key={props.food.id} to={`/food/${props.food.id}`}>
         <img className="home-image" src={pictureURL} alt={name}
-        />
-
+          onMouseEnter={() => setShowme(true)}
+          onMouseLeave={() => setShowme(false)} />
       </Link>
+ 
       <div className="short-info">
-        <p className="food_name" style={wordStyle}>{name.toUpperCase()}</p>
+        <p className="food-names" style={wordStyle}>{name.toUpperCase()}</p>
         <p className="food-likes" style={wordStyle}> {likes}
           <span style={{ fontSize: "20px" }}>👍</span></p>
       </div>
