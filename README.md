@@ -85,6 +85,7 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 #### PostMVP  
 
 - users are allow to like food
+- slideShow on landing page
 - shows more info when the mouse is hover on home page,  and the pic becomes more transparent
 - second page should also allow users to post their review of the food
 
@@ -94,9 +95,9 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Feb 17| react home page, API render, second page-detail of each food | Incomplete 
-|Feb 18| CSS,Media Query  | Incomplete
+|Feb 16| Prompt / Wireframes / Priority Matrix / Timeframes | complete
+|Feb 17| react home page, API render, second page-detail of each food | complete 
+|Feb 18| CSS,Media Query  | complete
 |Feb 19| MVP, Project deploy, | Incomplete
 |Jan 23| Presentation  | Incomplete
 
@@ -108,18 +109,18 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | CSS - color,border,size  | L | 3 hrs| 3hrs | 3hrs |
-| CSS - flexbox or grid home page | H | 3hrs| ?hrs | ?hrs |
-| CSS - flexbox or grid second  page | H | 3hrs| ?hrs | ?hrs |
-| CSS - form|  H | 1hrs| ?hrs | ? hrs |
-| CSS - adjust screen, media query | H | 3hr | ? hrs | ? hrs |
+| CSS - flexbox or grid home page | H | 3hrs| 3hrs | 3hrs |
+| CSS - flexbox or grid second  page | H | 3hrs| 5hrs | 5hrs |
+| CSS - form|  H | 1hrs| 2hrs | 2 hrs |
+| CSS - adjust screen, media query | H | 3hr | 2 hrs | 2 hrs |
 | nav bar | H | 2hrs | ?hrs | ?hrs |
-| Hompage shows pic and basic info | H | 2hr | ? hrs | ?hrs|
-| form-allow users to insert their data | H | 2hr | ? hrs | ? hrs |
-| second page shows all detail of the clicked food | H | 3hr | ? hrs | ? hrs|
+| Hompage shows pic and basic info | H | 2hr | 1 hrs | 1hrs|
+| form-allow users to insert their data | H | 2hr | 1 hrs | 1 hrs |
+| second page shows all detail of the clicked food | H | 2hr | 1 hrs | 1 hrs|
 | allow users to add review | H | 2hr | ? hrs | ? hrs |
-| allow users to like or dislike a review | H | 3hr | ? hrs | ? hrs |
+| allow users to like or dislike a review | H | 3hr | 2 hrs | 2 hrs |
 | hover pic to show addition info on homepage | H | 3hr | ? hrs | ? hrs |
-| work with API | H | 2hrs | ?hrs | ?hrs |
+| work with API | H | 2hrs | .5hrs | .5hrs |
 | Total | H | 32hrs | hrs | hrs |
 
 ## Code Snippet
