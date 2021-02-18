@@ -24,7 +24,7 @@ export default function HomeFood(props) {
 
   function showDescription() {
     return (
-      <p className="home-description">{props.food.fields.description.slice(0,20)}...</p>
+      <p>{props.food.fields.description.slice(0,20)}...</p>
     )
   }
 
@@ -52,10 +52,12 @@ export default function HomeFood(props) {
           <button className="edit-button">Edit</button>
         </Link>
       </div>
-
-      <p className="home-description">
+      <div className="home-description">
+       
         {showme ? showDescription() : null}
-      </p>
+      
+</div>
+      
 
     </div>
 
