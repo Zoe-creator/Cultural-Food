@@ -58,12 +58,12 @@ export default function Form(props) {
     }
 
     props.setToggle((cur) => !cur)
-    history.push("./homepage")
+    history.push(`/homepage`)
   }
 
   return (
     <form onSubmit={handleSubmit} className="form">
-      <h2>Submit a New Food</h2>
+      <h2>Submit/Edit a New Food</h2>
       <label htmlFor="name">Name: </label>
       <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
       <br />

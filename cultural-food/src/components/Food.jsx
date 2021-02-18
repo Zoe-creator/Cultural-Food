@@ -18,7 +18,7 @@ export default function Food(props) {
       <img className="food-pic" src={food.fields.pictureURL} alt={food.fields.name} />
       <div className="food-info">
         <Like food={food} setToggle={props.setToggle} />
-        <h1 className="food-name">Name: {food.fields.name}</h1>
+        <h1 className="food-name">{(food.fields.name).toUpperCase()}</h1>
         <h2 className="food-region">Region: {food.fields.origin}</h2>
         <h3 className="food-description">{food.fields.description}</h3>
         <button>

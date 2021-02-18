@@ -30,7 +30,7 @@ export default function HomeFood(props) {
 
       </Link>
       <div className="short-info">
-        <p className="food_name" style={wordStyle}>{name}</p>
+        <p className="food_name" style={wordStyle}>{name.toUpperCase()}</p>
         <p className="food-likes" style={wordStyle}> {likes}
           <span style={{ fontSize: "20px" }}>👍</span></p>
       </div>

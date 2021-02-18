@@ -39,15 +39,12 @@ export default function Like(props) {
       fat,
       carbs,
     }
-
     const foodURL = `${baseURL}/${params.id}`
     await axios.put(foodURL, { fields }, config)
-
     //connect this all the way to the app.js.
     //so that the like increase even i went back to homepage
     //otherwise i need to do refresh to update.
     props.setToggle((cur) => !cur)
-
   }
 
   function increment() {
