@@ -9,13 +9,12 @@ export default function Homepage(props) {
   return (
     <div className="food-content">
       {props.foods.map((food) => (
-        <HomeFood food={food} name={names} setName={setNames} />
-      ))
-      }
+        <HomeFood food={food} name={names} setName={setNames} setToggle={props.setToggle} />
+      ))}
+
       <Link to="/form" className="each-food">
         <img className="home-image" src={plus} alt="add another foodie" />
       </Link>
-
     </div>
   )
 

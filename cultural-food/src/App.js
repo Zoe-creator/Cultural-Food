@@ -38,27 +38,32 @@ function App() {
       <Route exact path="/homepage">
         <h1 className="app-header">Cultural Foodie</h1>
         <Nav />
-        <Homepage foods={foods} />
+        <Homepage foods={foods} setToggle={setToggle}/>
       </Route>
 
       <Route exact path="/form" >
         <h1 className="app-header">Cultural Foodie</h1>
         <Nav />
-        <Form setToggle={setToggle} />
+        <Form setToggle={setToggle} foods={foods}/>
+      </Route>
 
+<Route exact path="/edit/:id">
+        <h1 className="app-header">Cultural Foodie</h1>
+        <Nav />
+        <Form  setToggle={setToggle} foods={foods} />
       </Route>
 
       <Route exact path="/food/:id">
         <h1 className="app-header">Cultural Foodie</h1>
         <Nav />
-        <Food foods={foods} />
+        <Food foods={foods} setToggle={setToggle}/>
 
       </Route>
 
       <Route exact path="/nutritionfacts/:id">
         <h1 className="app-header">Cultural Foodie</h1>
         <Nav />
-        <Nutrition foods={foods} />
+        <Nutrition foods={foods} setToggle={setToggle} />
       </Route>
 
     </div>

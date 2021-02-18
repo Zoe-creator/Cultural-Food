@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import { baseURL, config } from "../services"
+import axios from "axios"
 
 
 export default function HomeFood(props) {
@@ -11,6 +13,11 @@ export default function HomeFood(props) {
     fontWeight: "bolder",
     fontSize: "16px"
   }
+  async function letgo() {
+    const foodURL = `${baseURL}/${props.food.id}`
+    await axios.delete(foodURL, config)
+    props.setToggle((cur) => !cur)
+  }
 
   return (
     <div className="each-food">
@@ -22,9 +29,21 @@ export default function HomeFood(props) {
         />
 
       </Link>
-      <p className="food_name" style={wordStyle}>{name}</p>
-      <p className="food-likes" style={wordStyle}> {likes}
-        <span style={{ fontSize: "20px" }}>👍</span></p>
+      <div className="short-info">
+        <p className="food_name" style={wordStyle}>{name}</p>
+        <p className="food-likes" style={wordStyle}> {likes}
+          <span style={{ fontSize: "20px" }}>👍</span></p>
+      </div>
+
+      <div>
+        <button onClick={letgo} className="delete-button">Delete</button>
+        <Link to={`/edit/${props.food.id}`} >
+          <button className="edit-button">Edit</button>
+        </Link>
+      </div>
+
+
+
     </div>
 
   )

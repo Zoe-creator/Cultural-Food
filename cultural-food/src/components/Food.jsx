@@ -1,10 +1,6 @@
 import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom"
 import Like from "./Like"
-import {useState} from "react"
-
-
-
 
 export default function Food(props) {
 
@@ -13,7 +9,6 @@ export default function Food(props) {
   const food = props.foods.find((food) => (
     food.id === params.id
   ))
-
   if (!food) {
     return (<h4>Loading...</h4>)
   }
@@ -22,16 +17,14 @@ export default function Food(props) {
     <div className="food-infos" key={food.id} >
       <img className="food-pic" src={food.fields.pictureURL} alt={food.fields.name} />
       <div className="food-info">
-        <Like food={food} />
+        <Like food={food} setToggle={props.setToggle} />
         <h1 className="food-name">Name: {food.fields.name}</h1>
         <h2 className="food-region">Region: {food.fields.origin}</h2>
         <h3 className="food-description">{food.fields.description}</h3>
         <button>
           <Link style={{ textDecoration: "none" }} className="nutrient-Link" to={`/nutritionfacts/${food.id}`}> Nutrient Facts</Link>
         </button>
-
       </div>
-
       {/* <h4>Reviews: {food.fields.[`reviews (from Reviews)`][0]}</h4> */}
     </div>
 

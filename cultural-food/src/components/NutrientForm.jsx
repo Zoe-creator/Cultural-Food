@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
+import axios from "axios";
 import { baseURL, config } from "../services"
-import axios from "axios"
 
-export default function Like(props) {
+export default function NutrientForm(props) {
   const [name, setName] = useState("")
   const [calories, setCalories] = useState(0)
   const [description, setDecription] = useState("")
@@ -11,9 +11,9 @@ export default function Like(props) {
   const [pictureURL, setPictureURL] = useState("")
   const [fat, setFat] = useState(0)
   const [carbs, setCarbs] = useState(0)
-  const [likes, setLikes] = useState(props.food.fields.likes)
+  const [likes, setLikes] = useState(0)
+  const params = useParams()
 
-  const params = useParams();
   useEffect(() => {
     if (params.id) {
       setLikes(props.food.fields.likes)
@@ -39,33 +39,26 @@ export default function Like(props) {
       fat,
       carbs,
     }
-
     const foodURL = `${baseURL}/${params.id}`
     await axios.put(foodURL, { fields }, config)
-
-    //connect this all the way to the app.js.
-    //so that the like increase even i went back to homepage
-    //otherwise i need to do refresh to update.
     props.setToggle((cur) => !cur)
-
   }
 
-  function increment() {
-    setLikes(likes + 1)
-  }
-
-  const buttonStyle = {
-    fontSize: "20px",
-    background: "#add8e6",
-    borderRadius: "5px",
-    width: "120px",
-    padding: "5px",
-    fontWeight: "bold",
-    color: "red"
-  }
   return (
-    <form onSubmit={handleSubmit} >
-      <button style={buttonStyle} type="submit" onClick={increment}> ❤ like {likes}</button>
-    </form>
+    <div>
+      <form className="show-me" onSubmit={handleSubmit}>
+        <label htmlFor="calories of Food">calories of Food: </label>
+        <input type="number" value={calories} onChange={(e) => setCalories(e.target.valueAsNumber)} />
+        <br />
+        <label htmlFor="fat of Food">Fat of Food: </label>
+        <input type="number" value={fat} onChange={(e) => setFat(e.target.valueAsNumber)} />
+        <br />
+        <label htmlFor="Carbs of Food">carbs of Food: </label>
+        <input type="number" value={carbs} onChange={(e) => setCarbs(e.target.valueAsNumber)} />
+        <br />
+        <button type="submit">Update Nutrient</button>
+      </form>
+    </div>
   )
+
 }
