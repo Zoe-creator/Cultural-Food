@@ -58,6 +58,15 @@ height:100vh;
   display:inline-flex;
  
 }
+.home-description{
+  position: relative;
+ font-size:14px;
+ background:rgba(0, 0, 0, 0.1);
+  bottom:50px;
+  top:0;
+  right:0;
+ 
+}
 
 .food-names{
   font-family: 'Rubik', sans-serif;
@@ -226,8 +235,23 @@ margin-top:5%;
   font-size:20px;
   border-radius:5px;
 }
+@media only screen and (max-width: 1450px) {
+  .food-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:20%;
+    grid-row-gap:3vh;
 
-@media only screen and (max-width: 1000px) {
+    max-width: 50vw;
+    height:100vh;
+    position:relative;
+    margin: 10% auto;
+    margin-left:4%;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  }
+
+@media only screen and (max-width: 1200px) {
   .food-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -280,3 +304,4 @@ margin-left:80px;
     background-size:cover;
     }
 }
+

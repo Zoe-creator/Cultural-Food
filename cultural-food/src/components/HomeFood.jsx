@@ -6,7 +6,7 @@ import { useState } from "react"
 
 export default function HomeFood(props) {
   const { name, pictureURL, likes } = props.food.fields
-  const [showme,setShowme]=useState(false)
+  const [showme, setShowme] = useState(false)
 
   const opacity = props.description === "" ? "1" :
     props.description === props.food.fields.description ? "1" : "0.5";
@@ -22,10 +22,9 @@ export default function HomeFood(props) {
     props.setToggle((cur) => !cur)
   }
 
-  function showDescription(){
+  function showDescription() {
     return (
-      <p className="home-description">{ props.food.fields.description}</p>
-
+      <p className="home-description">{props.food.fields.description.slice(0,20)}...</p>
     )
   }
 
@@ -34,21 +33,19 @@ export default function HomeFood(props) {
       onMouseEnter={() => props.setDecription(props.food.fields.description)}
       onMouseLeave={() => props.setDecription("")}
       style={{ opacity }} >
-         <p className="home-description">
-{showme?showDescription():null} 
-      </p>
+
       <Link className="foods-link" key={props.food.id} to={`/food/${props.food.id}`}>
         <img className="home-image" src={pictureURL} alt={name}
           onMouseEnter={() => setShowme(true)}
           onMouseLeave={() => setShowme(false)} />
       </Link>
- 
+
       <div className="short-info">
         <p className="food-names" style={wordStyle}>{name.toUpperCase()}</p>
         <p className="food-likes" style={wordStyle}> {likes}
           <span style={{ fontSize: "20px" }}>👍</span></p>
       </div>
-
+  
       <div>
         <button onClick={letgo} className="delete-button">Delete</button>
         <Link to={`/edit/${props.food.id}`} >
@@ -56,7 +53,9 @@ export default function HomeFood(props) {
         </Link>
       </div>
 
-
+      <p className="home-description">
+        {showme ? showDescription() : null}
+      </p>
 
     </div>
 
