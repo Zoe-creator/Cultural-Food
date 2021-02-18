@@ -35,6 +35,7 @@ background-size:cover;
   font-weight: bolder;
   color:rgb(220, 245, 110);
   font-family: 'Ranchers', cursive;
+  letter-spacing: 5px;
 }
 .landing-link{
   height:2em;
@@ -42,6 +43,8 @@ background-size:cover;
   /* position:relative; */
   color: rgb(17, 217, 243);
   background-color: rgb(192, 235, 255);
+  font-size: 20px;
+  
 }
 
 .food-content{

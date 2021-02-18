@@ -16,7 +16,7 @@ export default function LandingPage() {
       const random = Math.floor(Math.random() * 6)
       setCount(random)
       return () => clearInterval(interval);
-    }, 3000);
+    }, 2000);
   }, [])
 
   return (
