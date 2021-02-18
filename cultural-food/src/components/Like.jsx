@@ -11,12 +11,10 @@ export default function Like(props) {
   const [pictureURL, setPictureURL] = useState("")
   const [fat, setFat] = useState(0)
   const [carbs, setCarbs] = useState(0)
-  const [likes, setLikes] = useState(0)
+  const [likes, setLikes] = useState(props.food.fields.likes)
 
   const params = useParams();
   const history = useHistory();
-  //console.log(params.id)
-  console.log(params)
   useEffect(() => {
     if (params.id) {
       setLikes(props.food.fields.likes)
@@ -46,9 +44,8 @@ export default function Like(props) {
 
     const foodURL = `${baseURL}/${params.id}`
     await axios.put(foodURL, { fields }, config)
-    history.push(`/food/${params.id}`)
+    // history.push(`/food/${params.id}`)
   }
-  console.log(likes)
 
   function increment() {
     setLikes(likes + 1)
