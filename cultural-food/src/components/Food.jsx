@@ -2,6 +2,9 @@ import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom"
 import Like from "./Like"
 
+import Reviews from "./Reviews"
+
+
 export default function Food(props) {
 
   const params = useParams();
@@ -25,7 +28,8 @@ export default function Food(props) {
           <Link style={{ textDecoration: "none" }} className="nutrient-Link" to={`/nutritionfacts/${food.id}`}> Nutrient Facts</Link>
         </button>
       </div>
-      {/* <h4>Reviews: {food.fields.[`reviews (from Reviews)`][0]}</h4> */}
+      {/* <h4>Reviews: {food.fields.[`reviews (from reviews)`]}</h4> 
+      <Reviews /> */}
     </div>
 
   )

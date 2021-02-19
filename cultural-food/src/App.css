@@ -127,7 +127,7 @@ height:100vh;
   grid-column: 1/2;
   /* grid-row: 1/5; */
   width:25vw;
-  height:30vh;
+  height:40vh;
   margin-top:5vw;
   margin-bottom:20px;
 }
@@ -288,8 +288,8 @@ margin-left:80px;
   }
   .food-pic{
     grid-area:a;
-    width:50vw;
-    height:50vh;
+    width:40vw;
+    height:40vh;
     margin-bottom:20px;
   }
   .food-info{
