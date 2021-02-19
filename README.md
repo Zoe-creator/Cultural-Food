@@ -1,6 +1,6 @@
 
 # Project Overview
-https://zoe-creator.github.io/Cultural-food/.
+https://zen-mcnulty-99aa12.netlify.app/homepage
 
 ## Project Name
 Cultural Food
@@ -62,7 +62,7 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 |Feb 16| Prompt / Wireframes / Priority Matrix / Timeframes | complete
 |Feb 17| react home page, API render, second page-detail of each food | complete 
 |Feb 18| CSS,Media Query  | complete
-|Feb 19| MVP, Project deploy, | Incomplete
+|Feb 19| MVP, Project deploy, | complete
 |Jan 23| Presentation  | Incomplete
 
 
