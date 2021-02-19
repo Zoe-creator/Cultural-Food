@@ -24,7 +24,7 @@ export default function HomeFood(props) {
 
   function showDescription() {
     return (
-      <p>{props.food.fields.description.slice(0,20)}...</p>
+      <p>{props.food.fields.description.slice(0, 20)}...</p>
     )
   }
 
@@ -45,7 +45,7 @@ export default function HomeFood(props) {
         <p className="food-likes" style={wordStyle}> {likes}
           <span style={{ fontSize: "20px" }}>👍</span></p>
       </div>
-  
+
       <div>
         <button onClick={letgo} className="delete-button">Delete</button>
         <Link to={`/edit/${props.food.id}`} >
@@ -53,11 +53,11 @@ export default function HomeFood(props) {
         </Link>
       </div>
       <div className="home-description">
-       
+
         {showme ? showDescription() : null}
-      
-</div>
-      
+
+      </div>
+
 
     </div>
 

@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useState } from "react"
 import { baseURL, config } from "../services"
-import {useParams} from "react-router-dom"
+import { useParams } from "react-router-dom"
 
 //edit,submit form
 export default function Form(props) {

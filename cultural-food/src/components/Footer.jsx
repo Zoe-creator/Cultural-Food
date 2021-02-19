@@ -6,7 +6,7 @@ export default function Footer() {
     height: "30px",
     textAlign: "center",
   }
-  
+
   return (
     <div className="footer" >
       <div >

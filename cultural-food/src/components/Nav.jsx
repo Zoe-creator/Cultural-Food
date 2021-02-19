@@ -8,7 +8,7 @@ export default function Nav() {
     height: "25px",
     float: "left",
   }
-  
+
   return (
     <nav className="navbar">
       <Link to="/homepage" style={{ textDecoration: "none" }}>

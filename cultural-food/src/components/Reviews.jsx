@@ -26,7 +26,7 @@ export default function Reviews() {
 
   return (
     <div>
-        <ReviewsForm setToggle={setToggle} />
+      <ReviewsForm setToggle={setToggle} />
     </div>
   )
 }

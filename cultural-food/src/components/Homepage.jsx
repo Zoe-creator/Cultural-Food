@@ -11,7 +11,6 @@ export default function Homepage(props) {
       {props.foods.map((food) => (
         <HomeFood food={food} description={description} setDecription={setDecription} setToggle={props.setToggle} />
       ))}
-
       <Link to="/form" className="each-food">
         <img className="home-image" src={plus} alt="add another foodie" />
       </Link>
