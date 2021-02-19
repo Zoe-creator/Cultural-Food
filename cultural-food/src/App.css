@@ -146,6 +146,7 @@ nav {
     height: 40vh;
     margin-top: 5vw;
     margin-bottom: 20px;
+    animation: blinker 10s linear infinite;
 }
 
 .food-info {
@@ -199,6 +200,10 @@ nav {
     font-size: 20px;
 }
 
+.nutrient-link-button {
+    margin-top: 10px;
+}
+
 .nutrient-Link:hover {
     color: red;
 }
@@ -244,13 +249,14 @@ nav {
 .nutrient-form>button {
     margin: auto;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0px;
     font-size: 25px;
     position: relative;
     font-weight: bolder;
     background: rgb(238, 51, 51);
     padding: 5px;
     width: 100%;
+    animation: blinker 3s linear infinite;
 }
 
 .show-me {
@@ -422,8 +428,13 @@ nav {
 }
 
 @media only screen and (max-width: 600px) {
+    .app-header {
+        font-size: 8vw;
+        margin: 20px auto;
+    }
     .food-content {
         grid-template-columns: repeat(1, 1fr);
+        margin: 20px auto
     }
     .food-link {
         visibility: hidden;
@@ -441,6 +452,7 @@ nav {
         grid-template-columns: auto;
         grid-template-areas: "a" "b";
         grid-row-gap: 1vh;
+        margin-bottom: 40px;
     }
     .food-pic {
         grid-area: a;
