@@ -14,55 +14,19 @@ a website showing cutural food worldwide.
 {
     "records": [
         {
-            "id": "rec2O28PrVvRzddIP",
-            "fields": {
-                "Reviews": [
-                    "recOn4c8U0Ad1DoA4",
-                    "rec9kbJ9i1bUGTe8a"
-                ],
-                "description": "Pork belly meat, stewed in soy sauce with spices and herbs, then diced along with its stew and juices, then packed into a warm and crispy flatbread-li...",
-                "Name": "Stewed Pork Burger",
-                "Where": "Xi'an, China",
-                "Rate": "4",
-                "picture URL": "https://i.pinimg.com/originals/55/00/02/550002b9a45fdb1a2b7baab6af52e8f6.jpg",
-                "reviews (from Reviews)": [
-                    "this is very good.",
-                    "yummy"
-                ],
-                "Name (from Reviews)": [
-                    "Zoe",
-                    "debbie"
-                ]
-            },
-            "createdTime": "2021-02-15T21:35:25.000Z"
-        },
-        {
             "id": "recIOpAVRVcxWp9ug",
             "fields": {
-                "Reviews": [
-                    "rec9kbJ9i1bUGTe8a"
-                ],
+                "carbs": 28,
                 "description": "Chewy, steamed wheat flour noodles, tossed with bean sprouts, cucumbers, cilantro, and cubes of spongy house-made gluten, in all our proprietary sauce...",
-                "Name": "LIANG PI",
-                "Where": "Xi'an, China",
-                "Rate": "5",
-                "picture URL": "http://1vt52lbjubq3o1o2y36z6rcs.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/purplecold.jpeg",
-                "reviews (from Reviews)": [
-                    "yummy"
-                ],
-                "Name (from Reviews)": [
-                    "debbie"
-                ]
+                "likes": 41,
+                "name": "LIANG PI",
+                "origin": "Xi'an, China",
+                "calories": 117,
+                "fat": 67,
+                "pictureURL": "http://1vt52lbjubq3o1o2y36z6rcs.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/purplecold.jpeg"
             },
             "createdTime": "2021-02-15T21:35:25.000Z"
         },
-        {
-            "id": "recU5tbhj4Ilo9NQp",
-            "fields": {},
-            "createdTime": "2021-02-15T21:35:25.000Z"
-        }
-    ],
-    "offset": "recU5tbhj4Ilo9NQp"
 }
 ```
 ## WireFrams

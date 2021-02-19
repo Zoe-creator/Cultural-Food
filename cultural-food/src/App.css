@@ -120,7 +120,7 @@ height:100vh;
   grid-template-columns: 20vw,30vw;
   grid-column-gap:  2%;
   width:60vw;
-  height:100vh;
+  height:70vh;
   margin:70px auto;
   font-family: "Raleway", sans-serif;
 }
@@ -194,6 +194,7 @@ font-weight:bolder;
 background:rgb(238, 51, 51);
 padding:5px;
 width:100%;
+
 }
 .show-me{
   margin-top:5px;
