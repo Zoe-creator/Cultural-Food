@@ -16,12 +16,13 @@ export default function LandingPage() {
       const random = Math.floor(Math.random() * 6)
       setCount(random)
       return () => clearInterval(interval);
-    }, 2000);
+    }, 3000);
   }, [])
+
 
   return (
     <div className="landingpage"
-      style={{ backgroundImage: `url(${pics[count]})` }}>
+      style={{ backgroundImage: `url(${pics[count]})`, transition:"background-image 2s ease-in-out .7s" }}>
       <div className="landing-content">
         <header className="landing-header">Welcome to Cultural Foodie Page</header>
         <Link className="landing-link" to="/homepage">View All Foodies</Link>
