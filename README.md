@@ -1,7 +1,6 @@
 
 # Project Overview
-https://zen-mcnulty-99aa12.netlify.app/homepage
-
+https://zen-mcnulty-99aa12.netlify.app/
 ## Project Name
 Cultural Food
 
@@ -51,8 +50,6 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 - users are allow to like food
 - slideShow on landing page
 - shows more info when the mouse is hover on home page,  and the pic becomes more transparent
-- second page should also allow users to post their review of the food
-
 
 
 ## Project Schedule
@@ -77,25 +74,29 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 | CSS - flexbox or grid second  page | H | 3hrs| 5hrs | 5hrs |
 | CSS - form|  H | 1hrs| 2hrs | 2 hrs |
 | CSS - adjust screen, media query | H | 3hr | 2 hrs | 2 hrs |
-| nav bar | H | 2hrs | ?hrs | ?hrs |
+| nav bar | H | 2hrs | .5hrs | .5hrs |
 | Hompage shows pic and basic info | H | 2hr | 1 hrs | 1hrs|
 | form-allow users to insert their data | H | 2hr | 1 hrs | 1 hrs |
 | second page shows all detail of the clicked food | H | 2hr | 1 hrs | 1 hrs|
-| allow users to add review | H | 2hr | ? hrs | ? hrs |
 | allow users to like or dislike a review | H | 3hr | 2 hrs | 2 hrs |
-| hover pic to show addition info on homepage | H | 3hr | ? hrs | ? hrs |
+| hover pic to show addition info on homepage | H | 3hr | 1 hrs | 1 hrs |
 | work with API | H | 2hrs | .5hrs | .5hrs |
-| Total | H | 32hrs | hrs | hrs |
+| Total | H | 32hrs | 22hrs | 22hrs |
 
 ## Code Snippet
 
-
-```
-
+allow background to change pic every 3 second automatically.
+```useEffect(() => {
+    const interval = setInterval(() => {
+      const random = Math.floor(Math.random() * 6)
+      setCount(random)
+      return () => clearInterval(interval);
+    }, 3000);
+  }, [])
 ```
 
 ## SWOT Analysis
 
--Weakness: CSS,
+-Weakness: CSS
 
 -Strenghten: put components together.

@@ -21,16 +21,13 @@ export default function Food(props) {
       <img className="food-pic" src={food.fields.pictureURL} alt={food.fields.name} />
       <div className="food-info">
         <Like food={food} setToggle={props.setToggle} />
-           <button className="nutrient-link-button">
+        <button className="nutrient-link-button">
           <Link style={{ textDecoration: "none" }} className="nutrient-Link" to={`/nutritionfacts/${food.id}`}> Nutrient Facts</Link>
         </button>
         <h1 className="food-name">{(food.fields.name).toUpperCase()}</h1>
         <h2 className="food-region">Region: {food.fields.origin}</h2>
         <h3 className="food-description">{food.fields.description}</h3>
-
       </div>
-      {/* <h4>Reviews: {food.fields.[`reviews (from reviews)`]}</h4> 
-      <Reviews /> */}
     </div>
 
   )
