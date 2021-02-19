@@ -2,13 +2,9 @@ import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom"
 import Like from "./Like"
 
-import Reviews from "./Reviews"
-
-
 export default function Food(props) {
 
   const params = useParams();
-  //console.log(params.id)
   const food = props.foods.find((food) => (
     food.id === params.id
   ))

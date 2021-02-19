@@ -22,7 +22,7 @@ export default function LandingPage() {
 
   return (
     <div className="landingpage"
-      style={{ backgroundImage: `url(${pics[count]})`, transition:"background-image 2s ease-in-out .7s" }}>
+      style={{ backgroundImage: `url(${pics[count]})`, transition: "background-image 2s ease-in-out .7s" }}>
       <div className="landing-content">
         <header className="landing-header">Welcome to Cultural Foodie Page</header>
         <Link className="landing-link" to="/homepage">View All Foodies</Link>
