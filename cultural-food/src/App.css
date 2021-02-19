@@ -28,7 +28,6 @@ background-size:cover;
   padding-top:40vh;
   z-index:1;
   position:relative;
-
 }
 .landing-header{
   font-size: 40px;
@@ -44,7 +43,6 @@ background-size:cover;
   color: rgb(17, 217, 243);
   background-color: rgb(192, 235, 255);
   font-size: 20px;
-  
 }
 
 .food-content{
@@ -56,6 +54,7 @@ background-size:cover;
   margin: 5% 5%;
 height:100vh;
   font-family: "Source Sans Pro", sans-serif;
+  position:relative;
 }
 .short-info{
   display:inline-flex;
@@ -130,13 +129,13 @@ height:100vh;
   width:25vw;
   height:30vh;
   margin-top:5vw;
-  margin-bottom:100vw;
+  margin-bottom:20px;
 }
 .food-info{
   grid-column:2/2;
   width:30vw;
   padding:10px;
-  
+  margin-bottom:20px;
 }
 
 .food-name{
@@ -173,7 +172,7 @@ color:red;
   background-repeat: no-repeat;
 margin:auto;
 width:50vw;
-height:60vh;
+height:65vh;
 min-height:550px;
 border:5px solid #f892d6;
 position:relative;
@@ -241,42 +240,31 @@ margin-top:5%;
 }
 @media only screen and (max-width: 1450px) {
   .food-content{
-    display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap:20%;
     grid-row-gap:3vh;
     max-width: 50vw;
-    height:100vh;
-    position:relative;
     margin: 10% auto;
     margin-left:4%;
-    font-family: "Source Sans Pro", sans-serif;
   }
 
   }
 
 @media only screen and (max-width: 1200px) {
   .food-content{
-    display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap:20%;
     grid-row-gap:3vh;
-width:50vw;
+    width:50vw;
     max-width: 50vw;
-    height:100vh;
-    position:relative;
     margin: 10% auto;
   
   }
   .home-description{
-    position: relative;
-    font-size:16px;
-    color:rgb(0,0,0);
     background-color: rgb(186, 246, 248,0.6);
-    top:-110px;
-    right:0;
+    top:-250px;
     width:200px;
-    margin:0;
+    /* margin:0; */
 
   }
   .food-link{
@@ -291,14 +279,12 @@ margin-left:80px;
       height: 300px;
   }
   .food-infos{
-    display:grid;
     margin:auto;
     grid-template-columns: auto;
     grid-template-areas: 
     "a"
     "b";
     grid-row-gap:1vh;
-    font-family: "Raleway", sans-serif;
   }
   .food-pic{
     grid-area:a;
@@ -309,25 +295,16 @@ margin-left:80px;
   .food-info{
     grid-area:b;
     margin:auto;
-    width:30vw;
-    padding:10px;
+    width:50vw;
     margin-left: 0px;
     margin-top:0;
   }
-  .landingpage{
-    height:100vh;
-    width:100%;
-    background-repeat: no-repeat;
-    background-size:cover;
-    }
     .form{
-
-     width:60vw;
-     height:70vh;
- margin-top: 10px;
-
-   }
+width:60vw;
+margin-top: 10px;
 }
+}
+
 @media only screen and (max-width: 600px) {
   .food-content{
     grid-template-columns: repeat(1,1fr);
@@ -345,71 +322,53 @@ margin-left:80px;
       height: 300px;
   }
   .food-infos{
-    display:grid;
+  
     margin:auto;
     grid-template-columns: auto;
     grid-template-areas: 
     "a"
     "b";
     grid-row-gap:1vh;
-    font-family: "Raleway", sans-serif;
   }
   .food-pic{
     grid-area:a;
     width:50vw;
     height:50vh;
-    margin-bottom:20px;
   }
   .food-info{
     grid-area:b;
     margin:auto;
-    width:30vw;
-    padding:10px;
+
     margin-left: 0px;
     margin-top:0;
+
   }
-  .landingpage{
-    height:100vh;
-    width:100%;
-    background-repeat: no-repeat;
-    background-size:cover;
-    }
-    .nutrient-form>button{
-      margin:auto;
-     text-align: center;
-     margin-top: 5px;
-     font-size:16px;
-    position:relative;
-    font-weight:bolder;
-    background:rgb(238, 51, 51);
-    padding:5px;
-    width:100%;
-    }
+ 
+  
     .nutrient-Link{
       font-size:14px;
     }
     .nutrient-info{
-  
-    margin:auto;
+ 
     width:70vw;
     height:55vh;
     min-height:300px;
     border:5px solid #f8cf92;
-    position:relative;
-    margin-bottom: 10%;
+  
     }
     .nutrient-info>h5{
       font-size:16px;
       color:rgb(230, 100, 14);
  
     }
+    .home-description{
+      width:250px;
+    }
     .nutrient-food-name{
-      text-align: center;
+
       font-size:25px;
       font-weight:bolder;
-      color:rgb(235, 77, 124);
-      margin-top:30px;
-      margin-bottom:30px;
+
     }
     .home-image{
       width: 250px;
