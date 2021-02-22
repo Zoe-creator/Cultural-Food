@@ -63,8 +63,6 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 |Jan 23| Presentation  | Incomplete
 
 
-
-
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
@@ -94,9 +92,26 @@ allow background to change pic every 3 second automatically.
     }, 3000);
   }, [])
 ```
+## Change Log
+
+I added extra page to display nutrientFacts, and allow users to update nutrients facts
 
 ## SWOT Analysis
 
--Weakness: CSS
+## SWOT Analysis
 
--Strenghten: put components together.
+### Strengths:
+
+I have big picture on what I like to display and what functionalities should include on my website.
+
+### Weaknesses:
+
+I am still struggling with CSS grid and flex box.
+
+### Opportunities:
+
+This project is giving me an opportunities to showing people what I have learned for 2 weeks about the react.
+
+### Threats:
+
+Whenever I get stuck with an error or an issue, I would have to take plenty of time to search for a solution. I tend to solve one problem first before I move into next step, so that I may run out the time.
