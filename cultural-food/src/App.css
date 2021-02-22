@@ -1,6 +1,8 @@
 body {
     background: rgb(206, 229, 248);
+
 }
+
 
 .app-header {
     font-family: 'Press Start 2P', cursive;
@@ -9,7 +11,7 @@ body {
     letter-spacing: 10px;
     font-weight: 900;
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 

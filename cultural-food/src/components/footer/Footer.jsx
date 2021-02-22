@@ -10,15 +10,18 @@ export default function Footer() {
   }
 
   return (
-    <footer className="footer" >
-      <div >
-        <a target="_blank" href="https://github.com/Zoe-creator/Cultural-Food">
-          <img src={github} style={img} /> </a>
+    <footer >
+      <div className="footer">
+        <div >
+          <a target="_blank" href="https://github.com/Zoe-creator/Cultural-Food">
+            <img src={github} style={img} /> </a>
+        </div>
+        <div >
+          <a target="_blank" href="https://www.linkedin.com/in/zoe-zhenwen-li-65343a179/">
+            <img src={linkin} style={img} /> </a>
+        </div>
       </div>
-      <div >
-        <a target="_blank" href="https://www.linkedin.com/in/zoe-zhenwen-li-65343a179/">
-          <img src={linkin} style={img} /> </a>
-      </div>
+
     </footer>
   )
 }

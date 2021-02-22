@@ -29,15 +29,13 @@ function App() {
 
       <Route exact path="/" >
         <LandingPage />
-        <Footer />
       </Route>
-
+      
       <Route exact path="/homepage" >
         <h1 className="app-header" > Cultural Foodie </h1>
         <Nav />
         <Homepage foods={foods}
           setToggle={setToggle} />
-
       </Route >
 
       <Route exact path="/form" >
@@ -63,7 +61,8 @@ function App() {
         <h1 className="app-header" > Cultural Foodie </h1>
         <Nav />
         <Nutrition foods={foods} setToggle={setToggle} />
-      </Route >
+      </Route > 
+      <Footer />
 
     </div>
   );

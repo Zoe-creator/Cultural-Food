@@ -1,9 +1,12 @@
 
 .landingpage {
   height: 100vh;
-  width: 100%;
+  width: 102%;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background: no-repeat center center fixed; */
+  /* margin:0; */
+
 }
 
 .landing-content {
