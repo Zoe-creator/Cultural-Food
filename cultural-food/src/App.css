@@ -114,12 +114,12 @@ nav {
 
 .footer {
     font-family: Verdana, Geneva, sans-serif;
-    /* background-color: rgb(180, 240, 248); */
+    background-color: rgb(255, 255, 255,0.5);
     padding: 10px;
     height: auto;
     width: 100%;
     position: fixed;
-    bottom: 0;
+    bottom: -0vh;
     display: flex;
     justify-content: center;
     align-items: center;
