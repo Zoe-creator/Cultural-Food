@@ -1,4 +1,16 @@
 
+.nutrient-info {
+  background-image: url("../../images/nutrient.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 50vw;
+  height: 65vh;
+  min-height: 800px;
+  margin-bottom:50px;
+  border: 5px solid #f892d6;
+  position: relative;
+}
 .nutrient-food-name {
   text-align: center;
   font-family: 'Concert One';
@@ -9,17 +21,7 @@
   text-shadow: 4px 3px #faab97;
 }
 
-.nutrient-info {
-  background-image: url("../../images/nutrient.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: auto;
-  width: 50vw;
-  height: 65vh;
-  min-height: 800px;
-  border: 5px solid #f892d6;
-  position: relative;
-}
+
 
 .nutrient-info>h5 {
   font-size: 20px;

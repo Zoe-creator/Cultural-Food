@@ -6,13 +6,13 @@
   background-repeat: no-repeat;
   margin: auto;
   width: 50vw;
-  height: 70vh;
-  min-height: 850px;
+  height: 100vh;
+  min-height: 800px;
   position: relative;
   text-shadow: #dfae4b;
   padding: 10px;
   margin-top:10px;
-  margin-bottom:200px;
+  margin-bottom:100px;
 }
 
 .form>h2 {
@@ -30,7 +30,9 @@
   margin:auto;
 
 }
-
+.form>textarea{
+  max-height:200px;
+}
 .form>label {
   margin-top: 3%;
 }
@@ -50,7 +52,7 @@
 @media only screen and (max-width: 600px){
   .form {
   width: 80vw;
-  height: 60vh;
+  height: 100vh;
   margin-top: 10px;
 }
 .form>label,
