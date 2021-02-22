@@ -130,9 +130,8 @@
       margin: auto;
       grid-template-columns: auto;
       grid-template-areas: "a" "b";
-      grid-row-gap: 2vh;
-      margin-bottom:180px;
-  }
+      min-height:1000px;
+    }
   .food-pic {
       grid-area: a;
       width: 40vw;
@@ -184,30 +183,23 @@
     margin: auto;
     grid-template-columns: auto;
     grid-template-areas: "a" "b";
-    grid-row-gap: 1vh;
-    margin-bottom: 120px;
-}
+    grid-row-gap: 10px;
+    min-height:1000px;
+  }
 .food-pic {
     grid-area: a;
-    width: 50vw;
-    height: 50vh;
+    width: 60vw;
+    height: 400px;
 }
 .food-info {
     grid-area: b;
     margin: auto;
     margin-left: 0px;
     margin-top: 0;
+    width: 60vw;
 }
 .nutrient-Link {
     font-size: 14px;
 }
 
-.food-pic {
-    width: 60vw;
-    height: 30vh;
-}
-.food-info {
-    width: 60vw;
-    padding: 10px;
-}
 }
