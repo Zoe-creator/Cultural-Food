@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import { useState } from "react"
 import NutrientForm from "./NutrientForm"
-
+import "./nutrient.css"
 
 export default function Nutrition(props) {
   const [showForm, setShowForm] = useState(false)

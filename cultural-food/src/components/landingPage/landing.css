@@ -1,0 +1,40 @@
+
+.landingpage {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-content {
+  text-align: center;
+  padding-top: 40vh;
+  z-index: 1;
+  position: relative;
+}
+
+.landing-header {
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(235, 95, 14);
+  font-family: 'Ranchers', cursive;
+  letter-spacing: 5px;
+  text-shadow: -3px 2px 3px rgb(232, 248, 138);
+}
+
+@keyframes blinker {
+  50% {
+      opacity: 0;
+      color: blue;
+  }
+}
+
+.landing-link {
+  height: 2em;
+  font-weight: bold;
+  /* position:relative; */
+  color: rgb(17, 217, 243);
+  background-color: rgb(192, 235, 255);
+  font-size: 20px;
+  animation: blinker 5s linear infinite;
+}

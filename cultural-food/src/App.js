@@ -1,16 +1,14 @@
 import { Route } from "react-router-dom"
-import LandingPage from "./components/LandingPage"
-import Nav from "./components/Nav"
-import Food from "./components/Food"
+import LandingPage from "./components/landingPage/LandingPage"
+import Nav from "./components/navbar/Nav"
+import Food from "./components/food-details/Food"
 import axios from "axios"
-import Form from "./components/Form"
+import Form from "./components/form/Form"
 import { useEffect, useState } from "react"
-
-
 import './App.css';
-import Footer from "./components/Footer";
-import Homepage from "./components/Homepage";
-import Nutrition from "./components/Nutrition"
+import Footer from "./components/footer/Footer";
+import Homepage from "./components/homepage/Homepage";
+import Nutrition from "./components/nutrients/Nutrition"
 import { baseURL, config } from "./services"
 
 
@@ -39,6 +37,7 @@ function App() {
         <Nav />
         <Homepage foods={foods}
           setToggle={setToggle} />
+
       </Route >
 
       <Route exact path="/form" >

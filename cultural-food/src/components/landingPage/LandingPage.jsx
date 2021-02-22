@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom"
 import { useState, useEffect } from "react"
-import picone from "./images/1.png"
-import pictwo from "./images/2.png"
-import picfour from "./images/wellcore-foodie.jpg"
-import picfive from "./images/5.jpg"
-import picthree from "./images/3.jpg"
-import picsix from "./images/6.jpg"
+import picone from "../../images/1.png"
+import pictwo from "../../images/2.png"
+import picfour from "../../images/wellcore-foodie.jpg"
+import picfive from "../../images/5.jpg"
+import picthree from "../../images/3.jpg"
+import picsix from "../../images/6.jpg"
+import "./landing.css"
 
 export default function LandingPage() {
   const [count, setCount] = useState(0)

@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom"
-import plus from "./images/plus.jpg"
+import plus from "../../images/plus.jpg"
 import { useState } from "react"
 import HomeFood from "./HomeFood"
+import "./homepage.css"
 
 export default function Homepage(props) {
   const [description, setDecription] = useState("")

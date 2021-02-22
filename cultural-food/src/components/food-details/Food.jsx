@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom"
 import Like from "./Like"
+import "./food.css"
 
 export default function Food(props) {
 

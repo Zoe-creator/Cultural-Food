@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom"
-import { baseURL, config } from "../services"
+import { baseURL, config } from "../../services"
 import axios from "axios"
 import { useState } from "react"
+import "./homepage.css"
 
 
 export default function HomeFood(props) {

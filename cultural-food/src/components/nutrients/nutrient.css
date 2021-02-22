@@ -1,0 +1,66 @@
+
+.nutrient-food-name {
+  text-align: center;
+  font-family: 'Concert One';
+  font-size: 40px;
+  color: rgb(235, 77, 124);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-shadow: 4px 3px #faab97;
+}
+
+.nutrient-info {
+  background-image: url("../../images/nutrient.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 50vw;
+  height: 65vh;
+  min-height: 550px;
+  border: 5px solid #f892d6;
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.nutrient-info>h5 {
+  font-size: 20px;
+  color: rgb(230, 14, 24);
+  margin: auto;
+}
+
+.nutrient-form>button {
+  margin: auto;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 25px;
+  position: relative;
+  font-weight: bolder;
+  background: rgb(238, 51, 51);
+  padding: 5px;
+  width: 100%;
+  animation: blinker 3s linear infinite;
+}
+.show-me {
+  margin-top: 5px;
+  width: 200px;
+  margin: auto;
+  margin-top: 5px;
+  color: rgb(111, 111, 228);
+}
+
+@media only screen and (max-width: 600px) {
+  .nutrient-info {
+    width: 70vw;
+    height: 55vh;
+    min-height: 300px;
+    border: 5px solid #f8cf92;
+}
+.nutrient-info>h5 {
+    font-size: 16px;
+    color: rgb(230, 100, 14);
+}
+.nutrient-food-name {
+  font-size: 25px;
+  font-weight: bolder;
+}
+}

@@ -1,0 +1,121 @@
+
+.food-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 1%;
+  grid-column-gap: 3%;
+  max-width: 100vw;
+  margin: 5% 5%;
+  /* height: 90vh; */
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative;
+  margin-bottom: 10vh;
+}
+
+.short-info {
+  display: inline-flex;
+}
+
+.home-description {
+  position: relative;
+  font-size: 16px;
+  color: rgba(0, 0, 0);
+  background-color: rgb(255, 255, 255, 0.8);
+  top: -110px;
+  right: 0;
+  width: 320px;
+}
+
+.food-names {
+  font-family: 'Rubik', sans-serif;
+}
+
+.food-likes {
+  text-align: right;
+  margin: 8px;
+  margin-left: 50px;
+}
+
+.home-image {
+  width: 320px;
+  height: 330px;
+}
+
+.edit-button {
+  margin-left: 200px;
+}
+
+.edit-button:hover {
+  color: green;
+}
+
+.delete-button:hover {
+  color: red
+}
+@media only screen and (max-width: 1450px) {
+
+  .food-content {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20%;
+    grid-row-gap: 3vh;
+    max-width: 50vw;
+    margin: 10% auto;
+    margin-left: 4%;
+}
+}
+@media only screen and (max-width: 1200px) {
+  .food-content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20%;
+    grid-row-gap: 3vh;
+    width: 50vw;
+    max-width: 50vw;
+    margin: 10% auto;
+    margin-bottom: 10vh;
+
+}
+.home-description {
+    background-color: rgb(186, 246, 248, 0.6);
+    top: -250px;
+    width: 200px;
+    /* margin:0; */
+}
+.food-link {
+    visibility: hidden;
+}
+.edit-button {
+    float: right;
+    margin-left: 80px;
+}
+.home-image {
+    width: 200px;
+    height: 300px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .food-content {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px auto;
+    margin-bottom: 10vh;
+
+}
+.food-link {
+    visibility: hidden;
+}
+.edit-button {
+    float: right;
+    margin-left: 80px;
+}
+.home-image {
+    width: 200px;
+    height: 300px;
+}
+
+.home-description {
+  width: 250px;
+}
+.home-image {
+  width: 250px;
+  height: 330px;
+}
+}

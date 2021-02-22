@@ -1,0 +1,55 @@
+
+.form {
+  /* border:3px solid blueviolet; */
+  background-image: url("../../images/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 50vw;
+  height: 70vh;
+  min-height: 850px;
+  position: relative;
+  text-shadow: #dfae4b;
+  padding: 10px;
+  margin-top:10px;
+}
+
+.form>h2 {
+  text-align: center;
+  color: blue;
+  margin-top: 5%;
+}
+
+.form>label,
+.form>input,
+.form>textarea {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+}
+
+.form>label {
+  margin-top: 3%;
+}
+
+.form>button {
+  float: right;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 600px){
+  .form {
+  width: 80vw;
+  height: 60vh;
+  margin-top: 10px;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+  .form {
+  width: 60vw;
+  margin-top: 10px;
+}
+}

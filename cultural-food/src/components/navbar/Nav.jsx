@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import homeIcon from "./images/homeIcon.png"
-
+import homeIcon from "../../images/homeIcon.png"
+import "./nav.css"
 
 export default function Nav() {
   const img = {
