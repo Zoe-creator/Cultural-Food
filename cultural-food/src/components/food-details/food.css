@@ -185,8 +185,7 @@
     grid-template-columns: auto;
     grid-template-areas: "a" "b";
     grid-row-gap: 10px;
-    min-height:1000px;
-    margin-bottom:300px;
+    margin-bottom:100px;
 
   }
 .food-pic {
