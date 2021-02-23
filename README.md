@@ -1,6 +1,7 @@
 
 # Project Overview
-https://zen-mcnulty-99aa12.netlify.app/
+https://cultural-food.netlify.app/
+
 ## Project Name
 Cultural Food
 
@@ -60,7 +61,7 @@ https://drive.google.com/file/d/1Vdi8XTZJfEB0yDfiYr5WC-8EtZMzMfAP/view?usp=shari
 |Feb 17| react home page, API render, second page-detail of each food | complete 
 |Feb 18| CSS,Media Query  | complete
 |Feb 19| MVP, Project deploy, | complete
-|Jan 23| Presentation  | Incomplete
+|Jan 23| Presentation  | complete
 
 
 ## Timeframes
@@ -96,7 +97,7 @@ allow background to change pic every 3 second automatically.
 
 I added extra page to display nutrientFacts, and allow users to update nutrients facts
 
-## SWOT Analysis
+
 
 ## SWOT Analysis
 
