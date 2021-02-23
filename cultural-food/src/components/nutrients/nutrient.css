@@ -1,6 +1,6 @@
 
 .nutrient-info {
-  background-image: url("../../images/nutrient.jpg");
+  background-image: linear-gradient(to bottom,rgb(187, 187, 247), rgb(188, 248, 188),rgb(247, 192, 192),rgb(252, 173, 127));
   background-size: cover;
   background-repeat: no-repeat;
   margin: auto;

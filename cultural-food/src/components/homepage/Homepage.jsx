@@ -13,7 +13,7 @@ export default function Homepage(props) {
         <HomeFood food={food} description={description} setDecription={setDecription} setToggle={props.setToggle} />
       ))}
       <Link to="/form" className="each-food">
-        <img className="home-image" src={plus} alt="add another foodie" />
+        <img className="home-image add-food" style={{height:"100%"}} src={plus} alt="add another foodie" />  
       </Link>
     </div>
   )
