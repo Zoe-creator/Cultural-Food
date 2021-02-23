@@ -30,7 +30,7 @@
   background-color: rgb(255, 255, 255, 0.8);
   top: -110px;
   right: 0;
-  width: 320px;
+  width: 100%;
 }
 
 .food-names {
@@ -94,7 +94,7 @@
 .home-description {
     background-color: rgb(186, 246, 248, 0.6);
     top: -250px;
-    width: 200px;
+    width: 100%;
     /* margin:0; */
 }
 .food-link {
@@ -129,7 +129,7 @@
 }
 
 .home-description {
-  width: 250px;
+  width: 100%;
 }
 
 }
