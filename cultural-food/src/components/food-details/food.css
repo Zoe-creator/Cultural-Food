@@ -130,7 +130,7 @@
       margin: auto;
       grid-template-columns: auto;
       grid-template-areas: "a" "b";
-      min-height:1000px;
+      min-height:900px;
       margin-bottom:100px;
     }
   .food-pic {
