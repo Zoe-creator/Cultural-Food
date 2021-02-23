@@ -5,26 +5,26 @@ import axios from "axios"
 import "./food.css"
 
 export default function Like(props) {
-  const [name, setName] = useState("")
-  const [calories, setCalories] = useState(0)
-  const [description, setDecription] = useState("")
-  const [origin, setOrigin] = useState("")
-  const [pictureURL, setPictureURL] = useState("")
-  const [fat, setFat] = useState(0)
-  const [carbs, setCarbs] = useState(0)
+  // const [name, setName] = useState("")
+  // const [calories, setCalories] = useState(0)
+  // const [description, setDecription] = useState("")
+  // const [origin, setOrigin] = useState("")
+  // const [pictureURL, setPictureURL] = useState("")
+  // const [fat, setFat] = useState(0)
+  // const [carbs, setCarbs] = useState(0)
   const [likes, setLikes] = useState(props.food.fields.likes)
 
   const params = useParams();
   useEffect(() => {
     if (params.id) {
       setLikes(props.food.fields.likes)
-      setName(props.food.fields.name)
-      setCalories(props.food.fields.calories)
-      setDecription(props.food.fields.description)
-      setOrigin(props.food.fields.origin)
-      setPictureURL(props.food.fields.pictureURL)
-      setFat(props.food.fields.fat)
-      setCarbs(props.food.fields.carbs)
+      // setName(props.food.fields.name)
+      // setCalories(props.food.fields.calories)
+      // setDecription(props.food.fields.description)
+      // setOrigin(props.food.fields.origin)
+      // setPictureURL(props.food.fields.pictureURL)
+      // setFat(props.food.fields.fat)
+      // setCarbs(props.food.fields.carbs)
     }
   }, [params.id])
 
@@ -32,16 +32,17 @@ export default function Like(props) {
     e.preventDefault()
     const fields = {
       likes,
-      name,
-      description,
-      calories,
-      origin,
-      pictureURL,
-      fat,
-      carbs,
+      // name,
+      // description,
+      // calories,
+      // origin,
+      // pictureURL,
+      // fat,
+      // carbs,
     }
     const foodURL = `${baseURL}/${params.id}`
-    await axios.put(foodURL, { fields }, config)
+    //use patch to updated one.
+    await axios.patch(foodURL, { fields }, config)
     //connect this all the way to the app.js.
     //so that the like increase even i went back to homepage
     //otherwise i need to do refresh to update.
