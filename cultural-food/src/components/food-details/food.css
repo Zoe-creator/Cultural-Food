@@ -184,7 +184,6 @@
     margin: auto;
     grid-template-columns: auto;
     grid-template-areas: "a" "b";
-    /* grid-row-gap: 10px; */
     margin-bottom:60px;
 
   }
