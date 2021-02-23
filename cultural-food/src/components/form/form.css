@@ -31,7 +31,7 @@
 
 }
 .form>textarea{
-  max-height:200px;
+  min-height:150px;
 }
 .form>label {
   margin-top: 3%;
@@ -52,8 +52,9 @@
 @media only screen and (max-width: 600px){
   .form {
   width: 80vw;
-  height: 100vh;
+  height: 80vh;
   margin-top: 10px;
+  
 }
 .form>label,
 .form>input,
@@ -61,6 +62,9 @@
   width: 97%;
   font-size: 16px;
   margin:auto;
+}
+.form>textarea{
+  min-height:200px;
 }
 }
 
