@@ -66,16 +66,16 @@ export default function Form(props) {
     <form onSubmit={handleSubmit} className="form">
       <h2> {params.id ? "Edit a Food" : "Submit a New Food"}</h2>
       <label htmlFor="name">Name: </label>
-      <input type="text" maxLength="30" placeholder="Limit of 30" value={name} onChange={(e) => setName(e.target.value)} />
+      <input type="text" maxLength="30" placeholder="Limit of 30" value={name} onChange={(e) => setName(e.target.value)} required />
       <br />
       <label htmlFor="Description of Food">Description of Food: </label>
-      <textarea type="text" maxLength="300" placeholder="Limit of 300" value={description} onChange={(e) => setDecription(e.target.value)} ></textarea>
+      <textarea type="text" maxLength="300" placeholder="Limit of 300" value={description} onChange={(e) => setDecription(e.target.value)} required></textarea>
       <br />
       <label htmlFor="Origin of Food">Origin of Food: </label>
-      <input type="text" placeholder="City, Country" value={origin} onChange={(e) => setOrigin(e.target.value)} />
+      <input type="text" placeholder="City, Country" value={origin} onChange={(e) => setOrigin(e.target.value)} required/>
       <br />
       <label htmlFor="Valid Image Link">Valid Image Link: </label>
-      <input type="text" placeholder="http://"  value={pictureURL} onChange={(e) => setPictureURL(e.target.value)} />
+      <input type="text" placeholder="http://"  value={pictureURL} onChange={(e) => setPictureURL(e.target.value)} required/>
       <br />
       <label htmlFor="calories of Food">calories of Food: </label>
       <input type="number" placeholder="Valid Number " value={calories} onChange={(e) => setCalories(e.target.valueAsNumber)} />
