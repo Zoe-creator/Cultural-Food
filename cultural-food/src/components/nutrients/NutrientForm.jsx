@@ -5,24 +5,14 @@ import { baseURL, config } from "../../services"
 import "./nutrient.css"
 
 export default function NutrientForm(props) {
-  // const [name, setName] = useState("")
   const [calories, setCalories] = useState(0)
-  // const [description, setDecription] = useState("")
-  // const [origin, setOrigin] = useState("")
-  // const [pictureURL, setPictureURL] = useState("")
   const [fat, setFat] = useState(0)
   const [carbs, setCarbs] = useState(0)
-  // const [likes, setLikes] = useState(0)
   const params = useParams()
 
   useEffect(() => {
     if (params.id) {
-      // setLikes(props.food.fields.likes)
-      // setName(props.food.fields.name)
       setCalories(props.food.fields.calories)
-      // setDecription(props.food.fields.description)
-      // setOrigin(props.food.fields.origin)
-      // setPictureURL(props.food.fields.pictureURL)
       setFat(props.food.fields.fat)
       setCarbs(props.food.fields.carbs)
     }
@@ -31,12 +21,7 @@ export default function NutrientForm(props) {
   async function handleSubmit(e) {
     e.preventDefault()
     const fields = {
-      // likes,
-      // name,
-      // description,
       calories,
-      // origin,
-      // pictureURL,
       fat,
       carbs,
     }

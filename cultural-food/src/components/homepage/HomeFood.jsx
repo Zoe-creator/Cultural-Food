@@ -58,14 +58,9 @@ console.log(props.food.fields.description)
         </Link>
       </div>
       <div className="home-description">
-
         {showme ? showDescription() : null}
-
       </div>
-
-
     </div>
-
   )
 
 }
